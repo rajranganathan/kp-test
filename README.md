@@ -84,7 +84,9 @@ The code allows for a particular data key to be retrieved individually
 Solution:
 *********
 git clone  https://github.com/rajranganathan/kp-test.git
+
 cd kp-test
+
 python3 query_metadata.py
 
 
@@ -104,5 +106,7 @@ value = a
 Solution:
 *********
 git clone  https://github.com/rajranganathan/kp-test.git
+
 cd kp-test
+
 python3 nested_key_value.py
