@@ -62,14 +62,26 @@ gsutil versioning set on gs://${TF_STATE}
 ### Copy the code into Google Cloud Source Repository
 1. cd to root directory of kp-test
 2. Copy the contents of "kp-test" directory to GCP Source repository : https://source.developers.google.com/p/[PROJECT_ID]/r/[REPO_NAME]
+
+For Example:
+
+git remote add google ssh://user@domain.co.uk@source.developers.google.com:2022/p/demobox-2221/r/kp-demo-app
+git push --all google
+
 3. Push the code if there are any more customisable changes.
 4. Ensure Google Datastore is enabled
 
 
 Note the Google Cloud Build will start the automatic CI/CD process and deploy the Application automatically on Google Cloud Run.
 
-Please access the Google Cloud Run URL and you should be able to see the output of Datastore's Entity key value.
+You should be able to see something like the below in Cloud Build history Logs for kp-demo-app
 
+Step #2: Service [kp-demo-app] revision [kp-demo-app-00002-fiy] has been deployed and is serving 100 percent of traffic at https://kp-demo-app-djzwxcwkza-ew.a.run.app
+
+
+Please access the above Google Cloud Run URL or get the URL from Cloud Run console and you should be able to see the output of Datastore's Entity key value like below.
+
+Hello DATASTORE User !!!, Cherie’s parent: Lucy
 
 ==============
 Challenge #2
