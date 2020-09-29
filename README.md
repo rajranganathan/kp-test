@@ -6,6 +6,8 @@ Challenge #1
 ===============
 A 3 tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
+
+
 Solution:
 *********
 # gcp-demo-app
@@ -81,6 +83,8 @@ We need to write code that will query the meta data of an instance within aws an
 Bonus Points
 The code allows for a particular data key to be retrieved individually
 
+
+
 Solution:
 *********
 Run the below on an AWS EC2 instance:
@@ -104,6 +108,8 @@ key = a/b/c
 object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
+
+
 
 Solution:
 *********
