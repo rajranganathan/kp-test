@@ -83,6 +83,8 @@ The code allows for a particular data key to be retrieved individually
 
 Solution:
 *********
+Run the below on an AWS EC2 instance:
+
 git clone  https://github.com/rajranganathan/kp-test.git
 
 cd kp-test
