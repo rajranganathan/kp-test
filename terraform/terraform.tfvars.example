@@ -1,0 +1,6 @@
+project_id = "<YOUR PROJECT ID>"
+region = "<GCP REGION>"
+zone = "<GCP ZONE>"
+gcr_region = "<GCP REGION>"
+service_name = "<SERVICE NAME>"
+repository_name = "<GCP REPO NAME>"

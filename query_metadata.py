@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 '''
-Program to query aws EC2 Instance's metadata and output in JSON format.
+Program to query AWS EC2 Instance's metadata and display the outputs in JSON format.
 '''
 
 import json
