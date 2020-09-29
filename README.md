@@ -6,16 +6,12 @@ Challenge #1
 ===============
 A 3 tier environment is a common setup. Use a tool of your choosing/familiarity create these resources. Please remember we will not be judged on the outcome but more focusing on the approach, style and reproducibility.
 
-
-
 Solution:
 *********
 # gcp-demo-app
 A Demo Web App and a Python App which retrieves the Entity value for a key from Google Datastore hosted on GCP (Container as a Service) Cloud Run and also automatically deployed using GCP Cloud Build.
 
 Datastore allows entities to be stored in a parent/child relationship. This is known as an entity group or ancestor/descendent relationship.
-
-
 
 
 The entity group has kinds of types person, pet, and toy. The ‘Grandparent’ in this relationship is the ‘Person’. In order to configure this, one must first create the Person entity. Then, a user can create a pet, and specify that the parent is a person key. In order to create the ‘Grandchild’, a user then creates a toy and sets its parent to be a pet key. To further add customisable attributes, a user can specify additional key-value pairs such as age, sex, and type. These key-value pairs are stored as properties and the below solution will use Google Datastore.
@@ -84,7 +80,6 @@ Bonus Points
 The code allows for a particular data key to be retrieved individually
 
 
-
 Solution:
 *********
 Run the below on an AWS EC2 instance:
@@ -108,7 +103,6 @@ key = a/b/c
 object = {“x”:{“y”:{“z”:”a”}}}
 key = x/y/z
 value = a
-
 
 
 Solution:
